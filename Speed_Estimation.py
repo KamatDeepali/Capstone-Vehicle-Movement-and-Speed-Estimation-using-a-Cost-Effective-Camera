@@ -13,7 +13,7 @@ import multiprocessing
 
 
 
-video_file = ('/Users/deepaliKamat/Desktop/Monroe_to_Hylan.AVI')
+video_file = ('Road_Video.AVI')
 cap = cv2.VideoCapture(video_file)
 #length_of_file = int(cap.get(20))
 frame_counter = 0
