@@ -8,7 +8,8 @@ import math
 import copy
 
 # Input image frame
-img = cv2.imread('/Users/deepaliKamat/Desktop/frame1.png')
+# can perform on each frame in video
+img = cv2.imread('frame1.png')
 im_double = img.astype('float64')
 
 im_edges = np.zeros(shape=im_double.shape)
