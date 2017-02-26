@@ -4,8 +4,8 @@ import cv2  # OpenCV2
 import time  # For time.sleep( )
 
 # cap = cv2.VideoCapture(0)  	#  Or, could open up a video here.
-# cap = cv2.VideoCapture('/Users/tbk/TBK_PROF/CS_631/VIDEOS_of_ROAD/2016_06_28_10360630/08390006_road_stripes.AVI')
-cap = cv2.VideoCapture('/Volumes/CORP/ROAD_VIDS/08390005_road_stripes.AVI')
+# cap = cv2.VideoCapture('Road_video.AVI')
+cap = cv2.VideoCapture('Road_Video.AVI')
 
 # Params for ShiTomasi corner detection:
 #
