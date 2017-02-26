@@ -1,9 +1,12 @@
 import cv2
 import numpy as np
 
-VidInFile = '/Volumes/SCANDISK/ONE_ROAD_VIDEO/11440006.AVI'
+#Dense Optical Flow Calculation
+#version trial for speed estimation
+VidInFile = 'Video_name.AVI'
 inputVideo = cv2.VideoCapture(VidInFile)
 
+#reading ech frame
 ret, frame1 = inputVideo.read()
 prvs = cv2.cvtColor(frame1, cv2.COLOR_BGR2GRAY)
 hsv = np.zeros_like(frame1)
