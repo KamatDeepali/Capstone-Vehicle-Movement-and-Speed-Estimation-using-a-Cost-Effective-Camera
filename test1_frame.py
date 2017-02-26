@@ -16,7 +16,7 @@ import copy
 
 my_window_name = "Window"
 
-frame1 = cv2.imread('/Users/deepaliKamat/Desktop/frame1.png')
+frame1 = cv2.imread('frame1.png')
 
 frame = cv2.cvtColor(frame1, cv2.COLOR_BGR2LAB)
 
