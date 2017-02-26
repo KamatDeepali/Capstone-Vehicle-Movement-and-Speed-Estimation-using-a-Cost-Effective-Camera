@@ -69,8 +69,8 @@ def show_img_in_colorspace(im_dbl) :
 ###############################################################################
 
 my_window_name = "Window"
-
-frame = cv2.imread('/Users/deepaliKamat/Desktop/frame1.png')
+# single frame test
+frame = cv2.imread('frame1.png')
 
 
 im_bgr = np.zeros(shape=frame.shape)
