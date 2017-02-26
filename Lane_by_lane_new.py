@@ -10,8 +10,8 @@ import multiprocessing
 
 
 # Input image frame (image now)
-
-image = cv2.imread('/Users/deepaliKamat/Desktop/frame1.png')
+#Using single frame to test functioning
+image = cv2.imread('frame1.png')
 
 height = np.size(image, 0)
 width = np.size(image, 1)
