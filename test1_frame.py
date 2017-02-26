@@ -7,7 +7,7 @@ from decimal import Decimal
 import math
 import copy
 
-# contribution aided by Dr. Kinsman(Advisor)
+
 ###############################################################################
 #
 #    MAIN
