@@ -17,7 +17,7 @@ import copy
 
 my_window_name = "Window"
 
-cap = cv2.VideoCapture('/Volumes/CORP/ROAD_VIDS/08390005_road_stripes.AVI');
+cap = cv2.VideoCapture('Road_Video.AVI');
 
 while(True):
 
